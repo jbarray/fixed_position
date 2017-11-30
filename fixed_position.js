@@ -22,7 +22,7 @@ function click(){
                 button[j].className=' ';
             }
         }
-        target.className ='on';
+        target.className='on';
     }
 }
 buttonClick();
@@ -36,13 +36,13 @@ window.onscroll=function (){
     if(screenW<600){
         changeButton(0);
     }
-   if(screenW>=600&&screenW<1000){
+   if(screenW>=600&&screenW<1300){
        changeButton(1);
    }
-   if(screenW>=1500&&screenW<1650){
+   if(screenW>=1300&&screenW<1750){
        changeButton(2);
    }
-    if(screenW>=1650){
+    if(screenW>=1750){
         changeButton(3);
     }
 };
