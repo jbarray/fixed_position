@@ -39,12 +39,12 @@
 a{
     text-decoration: none;
     color: #000;
-}
-ul li {
-    list-style: none;
     height: 40px;
     text-align: center;
     line-height: 40px;
+}
+ul li {
+    list-style: none;
     margin-top: 30px;
 }
 .on {
