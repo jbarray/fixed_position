@@ -3,7 +3,7 @@ var button=document.getElementsByTagName('li');
 
 //滚动条下拉至某个板块时,右边方块也跟着变化.
 window.onscroll=function (){
-    var screenH=document.body.scrollTop;
+    var screenH=document.body.scrollTop|| document.documentElement.scrollTop || window.pageYOffset;
     for(var i=0;i<part.length;i++){
         if(screenH>part[i].offsetTop-140){
             changeButton(i);
